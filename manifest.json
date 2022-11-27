@@ -1,0 +1,11 @@
+{
+    "name": "Prop_Snap_to_Grid",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/TaleSpire-Modding/PropSnapToGridPlugin",
+    "description": "Allows users to Snap Props to Grid",
+    "dependencies": [
+        "bbepisTaleSpire-BepInExPack-5.4.10",
+	"brcoding-SetInjectionFlagPlugin-2.3.0",
+	"HolloFox_TS-Config_Manager-0.9.5"
+    ]
+}

@@ -1,4 +1,5 @@
 # Prop Snap To Grid
+[![Nuget Published](https://github.com/TaleSpire-Modding/PropSnapToGridPlugin/actions/workflows/release.yml/badge.svg)](https://github.com/TaleSpire-Modding/PropSnapToGridPlugin/actions/workflows/release.yml)
 
 This plugin provides an update allow users to snap props to grid. 
 

@@ -4,7 +4,7 @@ using UnityEngine;
 namespace PropSnap.Patches
 {
     [HarmonyPatch(assembly, "BeginFrame")]
-    internal class CreatureMenuBoardPatch
+    internal sealed class PropPlaceBoardToolAssetHolderPatch
     {
         private const string assembly = "PropPlaceBoardTool+AssetHolder,Bouncyrock.TaleSpire.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null";
 

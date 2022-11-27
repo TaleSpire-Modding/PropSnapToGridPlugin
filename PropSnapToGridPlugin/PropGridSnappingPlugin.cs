@@ -8,12 +8,12 @@ namespace PropSnap
 
     [BepInPlugin(Guid, Name, Version)]
     [BepInDependency(SetInjectionFlag.Guid)]
-    public class PropGridSnappingPlugin : BaseUnityPlugin
+    public sealed class PropGridSnappingPlugin : BaseUnityPlugin
     {
         // constants
         private const string Name = "Prop Snap To Grid";
         private const string Guid = "org.hollofox.plugins.PropGridSnappingPlugin";
-        private const string Version = "1.0.0.0";
+        private const string Version = "0.0.0.0";
 
         // Config
         private static ConfigEntry<bool> _GridSnapEnabled;
